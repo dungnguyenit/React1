@@ -1,12 +1,7 @@
 import { Button } from "reactstrap";
 import React, { useEffect, useState } from "react";
 import "./App.css";
-interface _item {
-  userId?: number;
-  id?: number;
-  title?: string;
-  completed?: boolean;
-}
+
 function App() {
   console.log("123123213");
   const [data, setData] = useState(dataT);
@@ -26,7 +21,7 @@ function App() {
           backgroundColor: "pink",
         }}
       >
-        {data.map((item: _item, index) => (
+        {data.map((item, index) => (
           <div
             style={{ margin: 4, backgroundColor: "#ddd", padding: 5 }}
             key={index}

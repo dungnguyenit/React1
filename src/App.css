@@ -1,5 +1,5 @@
 .App {
-  max-width: 1200px;
+  max-width: 100%;
   padding: 20px;
   margin: 0 auto;
 }
@@ -16,4 +16,14 @@
 
 .field-input-group {
   margin-bottom: 20px;
+}
+.container{
+  display:block;
+  width: 60px;
+  height: 600px;
+  background-color: aqua;
+  margin-top: 30px;
+}
+.content{
+  background-color: aqua;
 }
